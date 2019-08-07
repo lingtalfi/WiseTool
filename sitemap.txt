@@ -1,0 +1,10 @@
+https://github.com/lingtalfi/WiseTool/blob/master/README.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/Exception/WiseToolException.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToRegular.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToBootstrap.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToWise.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToBootstrap.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToRegular.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool.md
+https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool.md
