@@ -2,12 +2,12 @@
 [Back to the Ling\WiseTool\WiseTool class](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool.md)
 
 
-WiseTool::wiseToRegular
+WiseTool::bootstrapToChloroform
 ================
 
 
 
-WiseTool::wiseToRegular — Returns the regular version of the given wise notification type.
+WiseTool::bootstrapToChloroform — Returns the chloroform version of the given bootstrap notification type.
 
 
 
@@ -16,12 +16,12 @@ Description
 ================
 
 
-public static [WiseTool::wiseToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToRegular.md)(string $wiseType) : string
+public static [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md)(string $bootstrapType, string $message) : string
 
 
 
 
-Returns the regular version of the given wise notification type.
+Returns the chloroform version of the given bootstrap notification type.
 
 
 
@@ -30,7 +30,11 @@ Parameters
 ================
 
 
-- wiseType
+- bootstrapType
+
+    
+
+- message
 
     
 
@@ -54,7 +58,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [WiseTool::wiseToRegular](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L83-L98)
+See the source code for method [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L284-L299)
 
 
 See Also
@@ -62,5 +66,5 @@ See Also
 
 The [WiseTool](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool.md) class.
 
-Next method: [wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToBootstrap.md)<br>
+Previous method: [bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md)<br>
 

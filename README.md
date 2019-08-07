@@ -29,6 +29,10 @@ Summary
 - [WiseTool api](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool.md) (generated with [DocTools](https://github.com/lingtalfi/DocTools))
 
 
+
+
+
+
 This is just an adaptor class.
 
 
@@ -60,10 +64,25 @@ Now let me add my own, one letter variation:
 I use those some times in some notifying tools I create.
 
 
-And so we end up with those notifications which basically are the same, but they just have different names.
+
+Also there are the @page(Chloroform notification classes), and probably a lot of other systems.
+
+
+And so we end up with those notifications which basically are the same, but they just have different names (or representations).
 The goal of this class is to provide easy translation from one set to another.
 
 The first set is called regular, the second is called bootstrap, and the third (one letter) is called wise.
+
+The chloroform objects are called "chloroform".
+
+
+
+So to recap, here are the supported systems:
+
+- regular
+- bootstrap
+- wise
+- chloroform
 
 
 
@@ -72,6 +91,10 @@ The first set is called regular, the second is called bootstrap, and the third (
 History Log
 =============
 
+- 1.1.0 -- 2019-08-07
+
+    - add support for chloroform notifications
+    
 - 1.0.0 -- 2019-08-07
 
     - initial commit

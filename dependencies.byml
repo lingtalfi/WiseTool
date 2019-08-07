@@ -1,2 +1,6 @@
-dependencies: []
+dependencies: 
+    Ling: 
+        - Chloroform
+    
+
 post_install: []

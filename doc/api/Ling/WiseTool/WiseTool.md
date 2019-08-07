@@ -47,10 +47,25 @@ Now let me add my own, one letter variation:
 I use those some times in some notifying tools I create.
 
 
-And so we end up with those notifications which basically are the same, but they just have different names.
+
+Also there are the Chloroform notification classes, and probably a lot of other systems.
+
+
+And so we end up with those notifications which basically are the same, but they just have different names (or representations).
 The goal of this class is to provide easy translation from one set to another.
 
 The first set is called regular, the second is called bootstrap, and the third (one letter) is called wise.
+
+The chloroform objects are called "chloroform".
+
+
+
+So to recap, here are the supported systems:
+
+- regular
+- bootstrap
+- wise
+- chloroform
 
 
 
@@ -63,10 +78,13 @@ class <span class="pl-k">WiseTool</span>  {
 - Methods
     - public static [wiseToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToRegular.md)(string $wiseType) : string
     - public static [wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToBootstrap.md)(string $wiseType) : string
+    - public static [wiseToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToChloroform.md)(string $wiseType, string $message) : string
     - public static [regularToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToBootstrap.md)(string $regularType) : string
     - public static [regularToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToWise.md)(string $regularType) : string
+    - public static [regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md)(string $regularType, string $message) : string
     - public static [bootstrapToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToRegular.md)(string $bootstrapType) : string
     - public static [bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md)(string $bootstrapType) : string
+    - public static [bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md)(string $bootstrapType, string $message) : string
 
 }
 
@@ -80,10 +98,13 @@ Methods
 
 - [WiseTool::wiseToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToRegular.md) &ndash; Returns the regular version of the given wise notification type.
 - [WiseTool::wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToBootstrap.md) &ndash; Returns the bootstrap version of the given wise notification type.
+- [WiseTool::wiseToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToChloroform.md) &ndash; Returns the chloroform version of the given wise notification type.
 - [WiseTool::regularToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToBootstrap.md) &ndash; Returns the bootstrap version of the given regular notification type.
 - [WiseTool::regularToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToWise.md) &ndash; Returns the wise version of the given regular notification type.
+- [WiseTool::regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md) &ndash; Returns the chloroform version of the given regular notification type.
 - [WiseTool::bootstrapToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToRegular.md) &ndash; Returns the regular version of the given bootstrap notification type.
 - [WiseTool::bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md) &ndash; Returns the wise version of the given bootstrap notification type.
+- [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md) &ndash; Returns the chloroform version of the given bootstrap notification type.
 
 
 

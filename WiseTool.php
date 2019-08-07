@@ -4,6 +4,10 @@
 namespace Ling\WiseTool;
 
 
+use Ling\Chloroform\FormNotification\ErrorFormNotification;
+use Ling\Chloroform\FormNotification\InfoFormNotification;
+use Ling\Chloroform\FormNotification\SuccessFormNotification;
+use Ling\Chloroform\FormNotification\WarningFormNotification;
 use Ling\WiseTool\Exception\WiseToolException;
 
 /**
@@ -40,10 +44,29 @@ use Ling\WiseTool\Exception\WiseToolException;
  * I use those some times in some notifying tools I create.
  *
  *
- * And so we end up with those notifications which basically are the same, but they just have different names.
+ *
+ * Also there are the @page(Chloroform notification classes), and probably a lot of other systems.
+ *
+ *
+ * And so we end up with those notifications which basically are the same, but they just have different names (or representations).
  * The goal of this class is to provide easy translation from one set to another.
  *
  * The first set is called regular, the second is called bootstrap, and the third (one letter) is called wise.
+ *
+ * The chloroform objects are called "chloroform".
+ *
+ *
+ *
+ * So to recap, here are the supported systems:
+ *
+ * - regular
+ * - bootstrap
+ * - wise
+ * - chloroform
+ *
+ *
+ *
+ *
  *
  *
  */
@@ -101,6 +124,32 @@ class WiseTool
 
 
     /**
+     * Returns the chloroform version of the given wise notification type.
+     *
+     * @param string $wiseType
+     * @param string $message
+     * @return string
+     * @throws WiseToolException
+     */
+    public static function wiseToChloroform(string $wiseType, string $message): string
+    {
+        switch ($wiseType) {
+            case "w":
+                return WarningFormNotification::create($message);
+            case "i":
+                return InfoFormNotification::create($message);
+            case "s":
+                return SuccessFormNotification::create($message);
+            case "e":
+                return ErrorFormNotification::create($message);
+            default:
+                throw new WiseToolException("Unknown wise type $wiseType.");
+                break;
+        }
+    }
+
+
+    /**
      * Returns the bootstrap version of the given regular notification type.
      *
      * @param string $regularType
@@ -143,6 +192,31 @@ class WiseTool
                 return "s";
             case "error":
                 return "e";
+            default:
+                throw new WiseToolException("Unknown regular type $regularType.");
+                break;
+        }
+    }
+
+    /**
+     * Returns the chloroform version of the given regular notification type.
+     *
+     * @param string $regularType
+     * @param string $message
+     * @return string
+     * @throws WiseToolException
+     */
+    public static function regularToChloroform(string $regularType, string $message): string
+    {
+        switch ($regularType) {
+            case "warning":
+                return WarningFormNotification::create($message);
+            case "info":
+                return InfoFormNotification::create($message);
+            case "success":
+                return SuccessFormNotification::create($message);
+            case "error":
+                return ErrorFormNotification::create($message);
             default:
                 throw new WiseToolException("Unknown regular type $regularType.");
                 break;
@@ -192,6 +266,32 @@ class WiseTool
                 return "s";
             case "danger":
                 return "e";
+            default:
+                throw new WiseToolException("Unknown bootstrap type $bootstrapType.");
+                break;
+        }
+    }
+
+
+    /**
+     * Returns the chloroform version of the given bootstrap notification type.
+     *
+     * @param string $bootstrapType
+     * @param string $message
+     * @return string
+     * @throws WiseToolException
+     */
+    public static function bootstrapToChloroform(string $bootstrapType, string $message): string
+    {
+        switch ($bootstrapType) {
+            case "warning":
+                return WarningFormNotification::create($message);
+            case "primary":
+                return InfoFormNotification::create($message);
+            case "success":
+                return SuccessFormNotification::create($message);
+            case "danger":
+                return ErrorFormNotification::create($message);
             default:
                 throw new WiseToolException("Unknown bootstrap type $bootstrapType.");
                 break;
