@@ -54,7 +54,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [WiseTool::wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L108-L123)
+See the source code for method [WiseTool::wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L109-L124)
 
 
 See Also

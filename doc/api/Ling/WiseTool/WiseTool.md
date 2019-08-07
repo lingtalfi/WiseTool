@@ -78,13 +78,13 @@ class <span class="pl-k">WiseTool</span>  {
 - Methods
     - public static [wiseToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToRegular.md)(string $wiseType) : string
     - public static [wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToBootstrap.md)(string $wiseType) : string
-    - public static [wiseToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToChloroform.md)(string $wiseType, string $message) : string
+    - public static [wiseToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToChloroform.md)(string $wiseType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
     - public static [regularToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToBootstrap.md)(string $regularType) : string
     - public static [regularToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToWise.md)(string $regularType) : string
-    - public static [regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md)(string $regularType, string $message) : string
+    - public static [regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md)(string $regularType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
     - public static [bootstrapToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToRegular.md)(string $bootstrapType) : string
     - public static [bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md)(string $bootstrapType) : string
-    - public static [bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md)(string $bootstrapType, string $message) : string
+    - public static [bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md)(string $bootstrapType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
 
 }
 

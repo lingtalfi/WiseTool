@@ -91,6 +91,10 @@ So to recap, here are the supported systems:
 History Log
 =============
 
+- 1.1.1 -- 2019-08-07
+
+    - fix typo
+    
 - 1.1.0 -- 2019-08-07
 
     - add support for chloroform notifications

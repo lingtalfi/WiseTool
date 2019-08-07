@@ -5,6 +5,7 @@ namespace Ling\WiseTool;
 
 
 use Ling\Chloroform\FormNotification\ErrorFormNotification;
+use Ling\Chloroform\FormNotification\FormNotificationInterface;
 use Ling\Chloroform\FormNotification\InfoFormNotification;
 use Ling\Chloroform\FormNotification\SuccessFormNotification;
 use Ling\Chloroform\FormNotification\WarningFormNotification;
@@ -128,10 +129,10 @@ class WiseTool
      *
      * @param string $wiseType
      * @param string $message
-     * @return string
+     * @return FormNotificationInterface
      * @throws WiseToolException
      */
-    public static function wiseToChloroform(string $wiseType, string $message): string
+    public static function wiseToChloroform(string $wiseType, string $message): FormNotificationInterface
     {
         switch ($wiseType) {
             case "w":
@@ -203,10 +204,10 @@ class WiseTool
      *
      * @param string $regularType
      * @param string $message
-     * @return string
+     * @return FormNotificationInterface
      * @throws WiseToolException
      */
-    public static function regularToChloroform(string $regularType, string $message): string
+    public static function regularToChloroform(string $regularType, string $message): FormNotificationInterface
     {
         switch ($regularType) {
             case "warning":
@@ -278,10 +279,10 @@ class WiseTool
      *
      * @param string $bootstrapType
      * @param string $message
-     * @return string
+     * @return FormNotificationInterface
      * @throws WiseToolException
      */
-    public static function bootstrapToChloroform(string $bootstrapType, string $message): string
+    public static function bootstrapToChloroform(string $bootstrapType, string $message): FormNotificationInterface
     {
         switch ($bootstrapType) {
             case "warning":

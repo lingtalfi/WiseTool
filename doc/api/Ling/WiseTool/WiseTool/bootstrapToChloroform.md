@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md)(string $bootstrapType, string $message) : string
+public static [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md)(string $bootstrapType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
 
 
 
@@ -42,7 +42,7 @@ Parameters
 Return values
 ================
 
-Returns string.
+Returns Ling\Chloroform\FormNotification\FormNotificationInterface.
 
 
 Exceptions thrown
@@ -58,7 +58,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L284-L299)
+See the source code for method [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L285-L300)
 
 
 See Also

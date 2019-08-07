@@ -16,7 +16,7 @@ Description
 ================
 
 
-public static [WiseTool::regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md)(string $regularType, string $message) : string
+public static [WiseTool::regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md)(string $regularType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
 
 
 
@@ -42,7 +42,7 @@ Parameters
 Return values
 ================
 
-Returns string.
+Returns Ling\Chloroform\FormNotification\FormNotificationInterface.
 
 
 Exceptions thrown
@@ -58,7 +58,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [WiseTool::regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L209-L224)
+See the source code for method [WiseTool::regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L210-L225)
 
 
 See Also

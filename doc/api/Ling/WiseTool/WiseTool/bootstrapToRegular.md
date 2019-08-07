@@ -54,7 +54,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [WiseTool::bootstrapToRegular](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L234-L249)
+See the source code for method [WiseTool::bootstrapToRegular](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L235-L250)
 
 
 See Also
