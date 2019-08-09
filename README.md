@@ -65,7 +65,7 @@ I use those some times in some notifying tools I create.
 
 
 
-Also there are the @page(Chloroform notification classes), and probably a lot of other systems.
+Also there are the @page(Chloroform notification classes), and even more systems to come.
 
 
 And so we end up with those notifications which basically are the same, but they just have different names (or representations).
@@ -77,12 +77,13 @@ The chloroform objects are called "chloroform".
 
 
 
-So to recap, here are the supported systems:
+At the moment,  the supported systems are:
 
 - regular
 - bootstrap
 - wise
-- chloroform
+- chloroform (as a target only)
+- light kit admin (as a target only)
 
 
 
@@ -91,6 +92,10 @@ So to recap, here are the supported systems:
 History Log
 =============
 
+- 1.2.0 -- 2019-08-09
+
+    - add support for Light_Kit_Admin notifications
+    
 - 1.1.1 -- 2019-08-07
 
     - fix typo

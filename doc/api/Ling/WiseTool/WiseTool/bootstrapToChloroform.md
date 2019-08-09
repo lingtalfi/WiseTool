@@ -58,7 +58,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L285-L300)
+See the source code for method [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/WiseTool.php#L338-L353)
 
 
 See Also
@@ -66,5 +66,5 @@ See Also
 
 The [WiseTool](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool.md) class.
 
-Previous method: [bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md)<br>
+Previous method: [bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md)<br>Next method: [bootstrapToLightKitAdmin](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToLightKitAdmin.md)<br>
 

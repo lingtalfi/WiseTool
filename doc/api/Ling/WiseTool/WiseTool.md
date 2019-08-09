@@ -4,7 +4,7 @@
 
 The WiseTool class
 ================
-2019-08-07 --> 2019-08-07
+2019-08-07 --> 2019-08-09
 
 
 
@@ -79,12 +79,15 @@ class <span class="pl-k">WiseTool</span>  {
     - public static [wiseToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToRegular.md)(string $wiseType) : string
     - public static [wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToBootstrap.md)(string $wiseType) : string
     - public static [wiseToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToChloroform.md)(string $wiseType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
+    - public static [wiseToLightKitAdmin](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToLightKitAdmin.md)(string $wiseType, string $message) : Ling\Light_Kit_Admin\Notification\LightKitAdminNotification
     - public static [regularToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToBootstrap.md)(string $regularType) : string
     - public static [regularToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToWise.md)(string $regularType) : string
     - public static [regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md)(string $regularType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
+    - public static [regularToLightKitAdmin](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToLightKitAdmin.md)(string $regularType, string $message) : Ling\Light_Kit_Admin\Notification\LightKitAdminNotification
     - public static [bootstrapToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToRegular.md)(string $bootstrapType) : string
     - public static [bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md)(string $bootstrapType) : string
     - public static [bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md)(string $bootstrapType, string $message) : Ling\Chloroform\FormNotification\FormNotificationInterface
+    - public static [bootstrapToLightKitAdmin](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToLightKitAdmin.md)(string $bootstrapType, string $message) : Ling\Light_Kit_Admin\Notification\LightKitAdminNotification
 
 }
 
@@ -99,12 +102,15 @@ Methods
 - [WiseTool::wiseToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToRegular.md) &ndash; Returns the regular version of the given wise notification type.
 - [WiseTool::wiseToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToBootstrap.md) &ndash; Returns the bootstrap version of the given wise notification type.
 - [WiseTool::wiseToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToChloroform.md) &ndash; Returns the chloroform version of the given wise notification type.
+- [WiseTool::wiseToLightKitAdmin](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/wiseToLightKitAdmin.md) &ndash; Returns the Light_Kit_Admin version of the given wise notification type.
 - [WiseTool::regularToBootstrap](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToBootstrap.md) &ndash; Returns the bootstrap version of the given regular notification type.
 - [WiseTool::regularToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToWise.md) &ndash; Returns the wise version of the given regular notification type.
 - [WiseTool::regularToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToChloroform.md) &ndash; Returns the chloroform version of the given regular notification type.
+- [WiseTool::regularToLightKitAdmin](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/regularToLightKitAdmin.md) &ndash; Returns the Light_Kit_Admin version of the given regular notification type.
 - [WiseTool::bootstrapToRegular](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToRegular.md) &ndash; Returns the regular version of the given bootstrap notification type.
 - [WiseTool::bootstrapToWise](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToWise.md) &ndash; Returns the wise version of the given bootstrap notification type.
 - [WiseTool::bootstrapToChloroform](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToChloroform.md) &ndash; Returns the chloroform version of the given bootstrap notification type.
+- [WiseTool::bootstrapToLightKitAdmin](https://github.com/lingtalfi/WiseTool/blob/master/doc/api/Ling/WiseTool/WiseTool/bootstrapToLightKitAdmin.md) &ndash; Returns the Light_Kit_Admin version of the given bootstrap notification type.
 
 
 
